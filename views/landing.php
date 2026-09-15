@@ -25,7 +25,9 @@
     <!-- Cabeçalho Menu/ Home-->
     <header>
         <div class="logo">
-            <img src="assets/img/logo123.png" alt="Logo da Conecta Contagem">
+            <a href="index.php">
+                <img src="assets/img/logo123.png" alt="Logo da Conecta Contagem">
+            </a>
         </div>
 
         <button class="menu-toggle">
@@ -36,9 +38,8 @@
 
             <ul class="d-flex list-unstyled">
 
-                <li><a href="#">Início</a></li>
-                
-                <li><a href="#">Eventos</a></li>
+
+
                 <li><a href="index.php?page=login">Entrar</a></li>
 
             </ul>
@@ -120,12 +121,8 @@
             <div class="col-12">
 
                 <!-- BOTÃO MOBILE -->
-                <button class="btn btn-light w-100 d-lg-none mb-2"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#categoriasCollapse"
-                    aria-expanded="false"
-                    aria-controls="categoriasCollapse">
+                <button class="btn btn-light w-100 d-lg-none mb-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#categoriasCollapse" aria-expanded="false" aria-controls="categoriasCollapse">
 
                     <i class="bi bi-grid-1x2"></i> Categorias
 
@@ -524,8 +521,7 @@
 
                         <div class="mt-3">
 
-                            <a href="index.php?page=login"
-                                class="btn btn-outline-conecta w-100 text-decoration-none">
+                            <a href="index.php?page=login" class="btn btn-outline-conecta w-100 text-decoration-none">
 
                                 Cadastrar evento
 

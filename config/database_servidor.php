@@ -12,11 +12,10 @@ function conectarBanco()
     // DADOS DA CONEXÃO
     // =====================================
 
-    $host = "localhost"; 
-    $banco = "conecta_contagem";
-    $usuario = "root"; 
-    $senha = ""; 
-
+    $host = "sql301.infinityfree.com";
+    $banco = "if0_42918330_conecta_contagem";
+    $usuario = "if0_42918330";
+    $senha = "SUA_SENHA_DO_MYSQL";
 
 
     // =====================================

@@ -63,3 +63,23 @@ function cadastrarUsuario(
 
     return $pdo->lastInsertId();
 }
+
+// =========================================
+// LISTAR USUÁRIOS
+// =========================================
+
+function listarUsuarios($pdo)
+{
+    $stmt = $pdo->prepare(
+        "SELECT
+            id,
+            nome,
+            email
+         FROM usuarios
+         ORDER BY id DESC"
+    );
+
+    $stmt->execute();
+
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}

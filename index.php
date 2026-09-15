@@ -33,7 +33,8 @@ $paginasValidas = [
     "landing",
     "login",
     "home",
-    "eventos"
+    "eventos",
+    "usuarios"
 ];
 
 
@@ -122,14 +123,14 @@ if (!in_array($page, $paginasPublicas)) {
         <ul>
 
             <li>
-                <a href="index.php?page=home">
-                    Início
+                <a href="index.php?page=eventos">
+                    Eventos
                 </a>
             </li>
 
             <li>
-                <a href="index.php?page=eventos">
-                    Eventos
+                <a href="index.php?page=usuarios">
+                    Usuários
                 </a>
             </li>
 

@@ -28,7 +28,7 @@
 
         <div class="row justify-content-center align-items-center min-vh-100">
 
-            <div class="col-md-6 col-lg-4">
+            <div class="col-12 col-sm-10 col-md-7 col-lg-5 col-xl-4">
 
 
                 <!-- Card de Login -->
@@ -149,7 +149,7 @@
                 <!-- Identificação -->
                 <p class="text-center text-muted small mt-4">
 
-                    Sistema MVC de Cadastros
+                    Conecta Contagem
 
                 </p>
 
